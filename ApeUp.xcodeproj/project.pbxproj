@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401201DE1EA804BF002DD347 /* APUAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401201DD1EA804BF002DD347 /* APUAppDelegate.swift */; };
+		401201E41EA804BF002DD347 /* APUBaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401201E31EA804BF002DD347 /* APUBaseScene.swift */; };
+		401201E61EA804BF002DD347 /* APUGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401201E51EA804BF002DD347 /* APUGameViewController.swift */; };
+		401201E91EA804BF002DD347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401201E71EA804BF002DD347 /* Main.storyboard */; };
+		401201EB1EA804BF002DD347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401201EA1EA804BF002DD347 /* Assets.xcassets */; };
+		401201EE1EA804BF002DD347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401201EC1EA804BF002DD347 /* LaunchScreen.storyboard */; };
+		401201F61EA809C0002DD347 /* APUMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401201F51EA809C0002DD347 /* APUMenuScene.swift */; };
+		401201FE1EA814A5002DD347 /* APUGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401201FD1EA814A5002DD347 /* APUGameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401201DA1EA804BF002DD347 /* ApeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		401201DD1EA804BF002DD347 /* APUAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APUAppDelegate.swift; sourceTree = "<group>"; };
+		401201E31EA804BF002DD347 /* APUBaseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APUBaseScene.swift; sourceTree = "<group>"; };
+		401201E51EA804BF002DD347 /* APUGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APUGameViewController.swift; sourceTree = "<group>"; };
+		401201E81EA804BF002DD347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		401201EA1EA804BF002DD347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401201ED1EA804BF002DD347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		401201EF1EA804BF002DD347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401201F51EA809C0002DD347 /* APUMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APUMenuScene.swift; sourceTree = "<group>"; };
+		401201FD1EA814A5002DD347 /* APUGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APUGameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401201D71EA804BF002DD347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401201D11EA804BF002DD347 = {
+			isa = PBXGroup;
+			children = (
+				401201DC1EA804BF002DD347 /* ApeUp */,
+				401201DB1EA804BF002DD347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		401201DB1EA804BF002DD347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401201DA1EA804BF002DD347 /* ApeUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		401201DC1EA804BF002DD347 /* ApeUp */ = {
+			isa = PBXGroup;
+			children = (
+				401201F71EA80A19002DD347 /* Application */,
+				401201FA1EA80A32002DD347 /* UI */,
+				401201FC1EA80A48002DD347 /* Support */,
+			);
+			path = ApeUp;
+			sourceTree = "<group>";
+		};
+		401201F71EA80A19002DD347 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				401201DD1EA804BF002DD347 /* APUAppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		401201F81EA80A21002DD347 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				401201FB1EA80A3D002DD347 /* Super */,
+				401201F51EA809C0002DD347 /* APUMenuScene.swift */,
+				401201FD1EA814A5002DD347 /* APUGameScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		401201F91EA80A29002DD347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				401201E51EA804BF002DD347 /* APUGameViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		401201FA1EA80A32002DD347 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				401201F81EA80A21002DD347 /* Scenes */,
+				401201F91EA80A29002DD347 /* ViewControllers */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		401201FB1EA80A3D002DD347 /* Super */ = {
+			isa = PBXGroup;
+			children = (
+				401201E31EA804BF002DD347 /* APUBaseScene.swift */,
+			);
+			name = Super;
+			sourceTree = "<group>";
+		};
+		401201FC1EA80A48002DD347 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				401201E71EA804BF002DD347 /* Main.storyboard */,
+				401201EA1EA804BF002DD347 /* Assets.xcassets */,
+				401201EC1EA804BF002DD347 /* LaunchScreen.storyboard */,
+				401201EF1EA804BF002DD347 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		401201D91EA804BF002DD347 /* ApeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401201F21EA804BF002DD347 /* Build configuration list for PBXNativeTarget "ApeUp" */;
+			buildPhases = (
+				401201D61EA804BF002DD347 /* Sources */,
+				401201D71EA804BF002DD347 /* Frameworks */,
+				401201D81EA804BF002DD347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApeUp;
+			productName = ApeUp;
+			productReference = 401201DA1EA804BF002DD347 /* ApeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401201D21EA804BF002DD347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APU;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brian Olencki";
+				TargetAttributes = {
+					401201D91EA804BF002DD347 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9UKYMVL752;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 401201D51EA804BF002DD347 /* Build configuration list for PBXProject "ApeUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 401201D11EA804BF002DD347;
+			productRefGroup = 401201DB1EA804BF002DD347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401201D91EA804BF002DD347 /* ApeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401201D81EA804BF002DD347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401201E91EA804BF002DD347 /* Main.storyboard in Resources */,
+				401201EB1EA804BF002DD347 /* Assets.xcassets in Resources */,
+				401201EE1EA804BF002DD347 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401201D61EA804BF002DD347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401201E41EA804BF002DD347 /* APUBaseScene.swift in Sources */,
+				401201E61EA804BF002DD347 /* APUGameViewController.swift in Sources */,
+				401201DE1EA804BF002DD347 /* APUAppDelegate.swift in Sources */,
+				401201F61EA809C0002DD347 /* APUMenuScene.swift in Sources */,
+				401201FE1EA814A5002DD347 /* APUGameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		401201E71EA804BF002DD347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401201E81EA804BF002DD347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		401201EC1EA804BF002DD347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401201ED1EA804BF002DD347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		401201F01EA804BF002DD347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		401201F11EA804BF002DD347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401201F31EA804BF002DD347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9UKYMVL752;
+				INFOPLIST_FILE = ApeUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolencki13.ApeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		401201F41EA804BF002DD347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9UKYMVL752;
+				INFOPLIST_FILE = ApeUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolencki13.ApeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401201D51EA804BF002DD347 /* Build configuration list for PBXProject "ApeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401201F01EA804BF002DD347 /* Debug */,
+				401201F11EA804BF002DD347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401201F21EA804BF002DD347 /* Build configuration list for PBXNativeTarget "ApeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401201F31EA804BF002DD347 /* Debug */,
+				401201F41EA804BF002DD347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401201D21EA804BF002DD347 /* Project object */;
+}
